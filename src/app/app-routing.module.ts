@@ -21,6 +21,9 @@ import { PropertyComponent } from './product-grid/property/property.component';
 import { FurnitureComponent } from './product-grid/furniture/furniture.component';
 import { SparePartComponent } from './product-grid/spare-part/spare-part.component';
 import { NativeComponent } from './product-grid/native/native.component';
+import { ProductDetailsHorizontalComponent } from './product-grid/product-details-horizontal/product-details-horizontal.component';
+import { ProductDetailsVerticalComponent } from './product-grid/product-details-vertical/product-details-vertical.component';
+import { ProductDetailsComponent } from './product-grid/product-details/product-details.component';
 
 // 404 Component (create a component for this page)
 //import { NotFoundComponent } from './not-found/not-found.component';
@@ -48,6 +51,10 @@ const routes: Routes = [
   { path: 'furniture', component: FurnitureComponent },
   { path: 'spare-part', component: SparePartComponent },
   { path: 'native', component: NativeComponent },
+  { path: 'product-details-horizontal', component: ProductDetailsHorizontalComponent },
+  { path: 'product-details-vertical', component: ProductDetailsVerticalComponent },
+  { path: 'product-details', component: ProductDetailsComponent },
+  
  // { path: '**', component: NotFoundComponent } // Wildcard route for a 404 page
 ];
 

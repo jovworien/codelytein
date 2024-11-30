@@ -1,15 +1,3 @@
-// import { Component } from '@angular/core';
-
-// @Component({
-//   selector: 'app-shoes',
-//   templateUrl: './shoes.component.html',
-//   styleUrl: './shoes.component.css'
-// })
-// export class ShoesComponent {
-
-// }
-
-
 import { Component } from '@angular/core';
 
 @Component({
@@ -18,20 +6,35 @@ import { Component } from '@angular/core';
   styleUrls: ['./shoes.component.css']
 })
 export class ShoesComponent {
-
-  // Main image displayed on the hero section
-  mainShoeImage: string = '../images/shoes/s.png';
-
-  // Thumbnail images to be displayed in the thumbnail section
-  thumbnailImages: string[] = [
-    '../images/shoes/s2.png',
-    '../images/shoes/s3.png',
-    '../images/shoes/s2.png',
-    '../images/shoes/s.png'
+  // Array of shoes with details (image, name, price)
+  shoes = [
+    {
+      image: '../images/shoes/s.png',
+      name: 'Nike Zoom Air',
+      price: 260
+    },
+    {
+      image: '../images/shoes/s2.png',
+      name: 'Nike Air Max',
+      price: 300
+    },
+    {
+      image: '../images/shoes/s3.png',
+      name: 'Nike React Infinity',
+      price: 280
+    },
+    {
+      image: '../images/shoes/s2.png',
+      name: 'Nike Pegasus',
+      price: 250
+    }
   ];
 
-  // Method to update the main image when a thumbnail is clicked
-  updateMainImage(image: string): void {
-    this.mainShoeImage = image;
+  // Currently selected shoe
+  currentShoe = this.shoes[0];
+
+  // Method to update the main image, name, and price when a thumbnail is clicked
+  updateCurrentShoe(shoe: any): void {
+    this.currentShoe = shoe;
   }
 }
