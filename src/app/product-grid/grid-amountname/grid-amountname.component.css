@@ -1,0 +1,37 @@
+  /* Custom Styles */
+  .card {
+    box-shadow: 0 4px 8px rgb(0,0,0, 0.2);
+    transition: transform 0.2s;
+    padding: 20px; /* Adds space inside the card */
+  }
+
+  .card:hover{
+    transform: scale(1.05);
+  }
+
+  .card-img-container{
+    height: 180px; /* Fixed height for uniform layout */
+    display: flex;
+    justify-content: center; /* Centers image horizontally */
+    align-items: center; /* Centers image */
+    margin-bottom: 20px; /* Space between image and text */
+  }
+
+  .card-img-top{
+    max-width: 100%; /* Ensures the image doesn't overflow */
+    max-height: 100%; /* Ensures the image fits inside the container */
+    object-fit: contain; /* Maintains aspect ratio */
+  }
+
+  .price{
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  .rating i{
+    color: gold;
+    margin-right: 2px;
+  }
+
+
+  

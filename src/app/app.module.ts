@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+// import { SwiperModule } from 'swiper/angular';
+// import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-import { AppRoutingModule } from './app-routing.module';
+
+import { AppRoutingModule} from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarHeaderComponent } from './headers/sidebar-header/sidebar-header.component';
 import { FullscreenHeaderComponent } from './headers/fullscreen-header/fullscreen-header.component';
@@ -20,6 +23,15 @@ import { CartbuyNamedescComponent } from './product-grid/cartbuy-namedesc/cartbu
 import { ImgdescnameContactdealerComponent } from './product-grid/imgdescname-contactdealer/imgdescname-contactdealer.component';
 import { ShoesComponent } from './hero-page/shoes/shoes.component';
 import { ClothesComponent } from './hero-page/clothes/clothes.component';
+import { PropertyComponent } from './product-grid/property/property.component';
+import { FurnitureComponent } from './product-grid/furniture/furniture.component';
+import { SparePartComponent } from './product-grid/spare-part/spare-part.component';
+import { NativeComponent } from './product-grid/native/native.component';
+import { ProductDetailsHorizontalComponent } from './product-grid/product-details-horizontal/product-details-horizontal.component';
+import { ProductDetailsVerticalComponent } from './product-grid/product-details-vertical/product-details-vertical.component';
+import { ProductDetailsComponent } from './product-grid/product-details/product-details.component';
+
+
 
 @NgModule({
   declarations: [
@@ -40,11 +52,20 @@ import { ClothesComponent } from './hero-page/clothes/clothes.component';
     CartbuyNamedescComponent,
     ImgdescnameContactdealerComponent,
     ShoesComponent,
-    ClothesComponent
+    ClothesComponent,
+    PropertyComponent,
+    FurnitureComponent,
+    SparePartComponent,
+    NativeComponent,
+    ProductDetailsHorizontalComponent,
+    ProductDetailsVerticalComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // FontAwesomeModule
+    // SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

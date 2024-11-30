@@ -1,0 +1,32 @@
+/* Navbar shadow */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Align links to center */
+  .nav-link {
+    font-weight: 500;
+    color: #fff !important;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Adjust button styles */
+  .btn {
+    border-radius: 20px;
+  }
+  
+  /* Reduce button size for small screens */
+  @media (max-width: 768px) {
+    .btn {
+      padding: 0.3rem 0.8rem;
+      font-size: 14px;
+    }
+  
+    .nav-link {
+      font-size: 14px;
+    }
+  }
+  

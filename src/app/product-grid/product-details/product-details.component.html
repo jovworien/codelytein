@@ -1,0 +1,81 @@
+<p>product-details</p>
+
+<div class="container py-5">
+  <div class="row">
+    <!-- Product Images Section -->
+    <div class="col-lg-6 col-md-12">
+      <div class="d-flex flex-column gap-3">
+        
+        <!-- Card containing the four images -->
+        <div class="image-card">
+          <div class="image-item">
+            <img src="../images/productdetails/chair1.jpeg" alt="Product" class="img-fluid rounded">
+          </div>
+          <div class="image-item">
+            <img src="../images/productdetails/chair2.jpeg" alt="Product" class="img-fluid rounded">
+          </div>
+          <div class="image-item">
+            <img src="../images/productdetails/chair3.jpeg" alt="Product" class="img-fluid rounded">
+          </div>
+          <div class="image-item">
+            <img src="../images/productdetails/chair4.jpeg" alt="Product" class="img-fluid rounded">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Product Details Section -->
+    <div class="col-lg-6 col-md-12">
+      <h1 class="product-title">Furniture</h1>
+      <div class="price mb-3">
+        <span class="current-price text-danger">$15.50</span>
+        <span class="original-price text-muted text-decoration-line-through">$31.00</span>
+      </div>
+      <div class="rating mb-3">
+        <span class="text-warning">★★★★★</span>
+        <span class="text-muted">(120 reviews)</span>
+      </div>
+      <div class="product-options mb-4">
+        <p><strong>Color:</strong> Pink</p>
+        <p><strong>Size:</strong></p>
+        <div>
+          <button class="btn btn-outline-primary btn-sm">S</button>
+          <button class="btn btn-outline-primary btn-sm">M</button>
+          <button class="btn btn-outline-primary btn-sm">L</button>
+        </div>
+      </div>
+      <button class="btn btn-success btn-lg w-100 mb-3">Add to Cart</button>
+      <button class="btn btn-outline-secondary btn-lg w-100 mb-3">Add to Wishlist</button>
+    </div>
+  </div>
+
+  <!-- Tabs for Product Info -->
+  <div class="row mt-5">
+    <div class="col-12">
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#general-info">General Info</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#details">Details</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#reviews">Reviews</button>
+        </li>
+      </ul>
+      <div class="tab-content mt-3">
+        <div class="tab-pane fade show active" id="general-info">
+          General product information goes here.
+        </div>
+        <div class="tab-pane fade" id="details">
+          Detailed product specifications.
+        </div>
+        <div class="tab-pane fade" id="reviews">
+          Customer reviews section.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

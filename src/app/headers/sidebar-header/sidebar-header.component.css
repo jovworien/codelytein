@@ -1,0 +1,27 @@
+
+  /* Customize sidebar to cover half the screen width */
+  .custom-offcanvas {
+    width: 50%; /* Set the width to half the screen */
+  }
+
+  /* For larger screens, make the sidebar slightly smaller */
+  @media (min-width: 768px) {
+    .custom-offcanvas {
+      width: 25%; /* Optional: adjust for larger screens */
+    }
+  }
+
+  /* Styling sidebar links */
+  .offcanvas-body ul li a {
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .offcanvas-body ul li a:hover {
+    background-color: #ddd;
+  }
+
+

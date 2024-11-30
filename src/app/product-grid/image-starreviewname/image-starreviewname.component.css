@@ -1,0 +1,23 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-img-top {
+    height: 180px; /* Uniform height for all images */
+    object-fit: contain; /* Ensures proper image aspect ratio */
+  }
+
+  .rating {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rating i {
+    color: gold;
+    margin-right: 4px;
+  }

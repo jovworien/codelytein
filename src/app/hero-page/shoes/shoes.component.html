@@ -1,1 +1,29 @@
-<p>shoes works!</p>
+  <div class="hero-section d-flex align-items-center justify-content-center">
+    <div class="container text-center text-white">
+      <!-- Heading -->
+      <h1 class="display-4 fw-bold">JUST DO IT</h1>
+      <p class="lead">
+        Nike Air Zoom series is back, crafted for the everyday game-changer.
+      </p>
+  
+      <!-- Main Shoe Image -->
+      <div class="shoe-image position-relative mx-auto">
+        <img [src]="mainShoeImage" alt="Nike Shoe" class="img-fluid shoe" />
+      </div>
+  
+      <!-- Product Info -->
+      <h3 class="mt-4 fw-semibold">Nike Zoom Air</h3>
+      <h4 class="fw-bold">$260</h4>
+  
+      <!-- Shoe Thumbnails -->
+      <div class="shoe-thumbnails d-flex justify-content-center align-items-lg-end gap-3 mt-4">
+        <div class="thumbnail-card" *ngFor="let image of thumbnailImages">
+          <img 
+            [src]="image" 
+            alt="Thumbnail" 
+            class="thumbnail img-fluid"
+            (click)="updateMainImage(image)">
+        </div>
+      </div>
+    </div>
+  </div>

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './sidebar-header.component.css'
 })
 export class SidebarHeaderComponent {
+  isSidebarCollapsed = false;
 
+  toggleSidebar() {
+    this.isSidebarCollapsed = !this.isSidebarCollapsed;
+  }
 }

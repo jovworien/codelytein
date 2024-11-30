@@ -1,0 +1,34 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 180px; /* Uniform height for all images */
+    object-fit: contain; /* Ensures proper image aspect ratio */
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #007bff;
+  }
+  
+  .btn {
+    border-radius: 0; /* Full-width button with no rounded edges */
+  }
+  

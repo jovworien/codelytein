@@ -1,0 +1,66 @@
+/* General styles */
+.container {
+  max-width: 1200px;
+}
+
+/* Main Image */
+.main-image img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Thumbnails */
+.gallery-img {
+  width: 60px;
+  cursor: pointer;
+}
+
+.gallery-img:hover {
+  border: 2px solid #007bff;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+/* Price and Rating */
+.price {
+  font-size: 1.5rem;
+}
+
+.rating span {
+  font-size: 1.2rem;
+}
+
+/* Tabs Section */
+.nav-tabs {
+  border-bottom: 2px solid #ddd;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-image img {
+    max-height: 300px;
+  }
+
+  .gallery-img {
+    width: 50px;
+  }
+
+  .product-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .price {
+    text-align: center;
+  }
+
+  .rating {
+    text-align: center;
+  }
+}

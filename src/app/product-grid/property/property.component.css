@@ -1,0 +1,50 @@
+.card {
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-container {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .rating i {
+    color: gold;
+    margin-right: 2px;
+  }
+  
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .w-48 {
+    width: 48%;
+  }
+  
+  .mt-3 {
+    margin-top: 15px;
+  }
+  

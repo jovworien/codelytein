@@ -1,0 +1,42 @@
+/* General styles */
+.container {
+    max-width: 1200px;
+  }
+  
+  /* Image card to hold four images in a grid layout */
+  .image-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* 2 images per row */
+    gap: 10px;
+  }
+  
+  .image-item {
+    width: 100%;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .image-item img:hover {
+    border: 2px solid #007bff;
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    /* For mobile layout: Display images in two columns (2 up, 2 down) */
+    .image-card {
+      grid-template-columns: repeat(2, 1fr);  /* Maintain 2 images per row on small screens */
+    }
+  
+    .image-item img {
+      max-height: 250px;  /* Adjust image size for mobile */
+    }
+  }
+  
