@@ -1,0 +1,25 @@
+/* .alert {
+    background-color: #f8f9fa;
+  }
+  
+  .card img {
+    object-fit: cover;
+  }
+  
+  input[type="text"] {
+    height: 38px;
+  } */
+
+  .progress-bar {
+    transition: width 0.4s ease;
+  }
+  
+  .img-thumbnail {
+    object-fit: cover;
+  }
+  @media (max-width: 576px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  

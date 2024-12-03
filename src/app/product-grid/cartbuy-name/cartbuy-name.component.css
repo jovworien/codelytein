@@ -1,0 +1,33 @@
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.img-thumbnail {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+}
+
+.summary-box {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-danger {
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}

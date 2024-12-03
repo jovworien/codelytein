@@ -1,0 +1,60 @@
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    font-weight: bold;
+    border-bottom: none;
+  }
+  
+  .img-fluid {
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 575.98px) {
+    .input-group {
+      flex-wrap: nowrap;
+      width: 100%;
+    }
+  
+    .input-group input {
+      flex: 1 1 auto;
+    }
+  
+    .row.mb-3 {
+      flex-wrap: wrap;
+    }
+  }
+
+
+/* .img-thumbnail {
+  max-width: 80px; 
+  max-height: 80px;
+} */
+
+@media (max-width: 575.98px) {
+  /* Adjust the alignment and spacing for smaller screens */
+  .d-flex.flex-sm-row {
+    flex-direction: column !important;
+  }
+/* 
+  .me-sm-3 {
+    margin-right: 0 !important;
+  } */
+
+  /* .img-thumbnail {
+    margin-bottom: 8px;
+  } */
+
+  .input-group {
+    flex-wrap: wrap;
+  }
+
+  .input-group input {
+    max-width: 60px; /* Restricts width of input on smaller screens */
+  }
+}
+
+  
