@@ -2,6 +2,15 @@
 .navbar {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
+
+  .custom-navbar {
+    background-color: var(--primary-color) !important;
+    /* color: var(--text-color); */
+  }
+
+  .custom-navbar .nav-link {
+    color: var(--navbar-text-color) !important;
+  }
   
   /* Align links to center */
   .nav-link {

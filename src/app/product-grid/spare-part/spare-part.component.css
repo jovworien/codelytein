@@ -59,3 +59,8 @@
   position: relative;
   padding-bottom: 50px; /* Space for the button */
 }
+
+
+.custom-btn  {
+  background-color: var(--primary-color) !important;
+}

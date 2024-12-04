@@ -10,6 +10,17 @@
       width: 25%; /* Optional: adjust for larger screens */
     }
   }
+ 
+  .custom-navbar  {
+    background-color: var(--primary-color) !important;
+  }
+  .custom-navbar .nav-link {
+    color: var(--navbar-text-color) !important;
+  }
+
+  .custom-navbar .nav-link:hover {
+    color: #ccc; 
+  }
 
   /* Styling sidebar links */
   .offcanvas-body ul li a {

@@ -1,5 +1,7 @@
 /* Hero Section */
 .hero-section {
+      /* background-color:   #6BEA15; */
+
     background-color: #001f3f;
     height: 100vh;
     display: flex;
